@@ -32,4 +32,9 @@
       h. type - no.
       
    6. / 7. linked to repo.
-      
+
+ ## Week2
+ ### 19 => 23
+   1. Elements that are in the language: Header, Nav, Main, Aside, Figure, Footer, FigCaption, Section, Article. 
+   
+
