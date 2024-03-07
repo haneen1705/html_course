@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> HEY! </title>
+    </head>
+
+    <body>
+        <form action="test.py" mehtod="POST" target="_blank">
+            <div>            
+                <label> Username </label>
+                <p><input name="Username" type="text" required placeholder="Enter a valid Username"/></p>
+                <hr> 
+            </div>
+
+            <div>
+                <label> Password </label>
+                <p> <input name="Password" type="password" placeholder="Password must be complex"/> </p>
+                <hr>
+            </div>
+
+            <div>
+                <label> Mobile </label>
+                <p><input name="Phone-number" type="text" required placeholder="+20 100 (234) 123"/> </p>               
+                <hr>
+            </div>
+
+            <div>
+                <input hidden value="@hello_hello"/>
+            </div>
+
+            <div>
+                <label> Email </label>
+                <P><input name="Email" type="email" required placeholder="Must be @something"/></P>
+                <hr>
+            </div>
+
+            <div>
+                <label> Subject </label>
+                <p><input name="Subject" type="text" placeholder="Your complaint"/></p>
+                <hr>
+            </div>
+
+            <div>
+                <input type="reset" value="Empty Form"/>
+                <input type="submit" value="Send Data"/>
+            </div>
+        </form>
+    </body>
+</html>
