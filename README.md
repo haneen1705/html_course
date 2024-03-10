@@ -4,9 +4,9 @@
   1. HTML refers to "Hyper-text markup language".
   2. Linked to repo.
      
-  3. a => Yes.
+  3. a => No.
      b => Yes.
-     c => Yes-self closing. 
+     c => No. 
      d => No-appears as descriprion to page.
      
   4. Linked to repo.
@@ -23,11 +23,11 @@
    4. Yes, they will all show the same; because spaces are not valid or considered as they could change according to zooming in / out.
       
    5. a. title - yes.
-      b. href - yes.
-      c. src - yes.
+      b. href - no.
+      c. src - no.
       d. hidden - yes.
-      e. charset - yes.
-      f. class - yes.
+      e. charset - no.
+      f. class - no.
       g. id - yes.
       h. type - no.
       
