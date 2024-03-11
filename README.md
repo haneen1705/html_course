@@ -41,7 +41,7 @@
      d- <p>...</p>
      e- <html lang="English"> </html>
      f- 10 to 20 (so that screen reader can voice it)
-     g- <div role="button" tabindex="0" aria-labelledby="Button">...</div>
+     g- <div role="button" tabindex="0" aria-labelledby="Button"> <label id="button"> Button </label> </div>
      h- Accessible rich internet application / means that the website is accessible to people with disabilites.
 
  ## Week2
