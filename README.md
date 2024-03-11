@@ -33,6 +33,17 @@
       
    6. / 7. linked to repo.
 
+## Week 3
+### Videos (34-37)
+  1. a- <input type="submit"> OR <button>Send</button>
+     b- <title>...</title>
+     c- Using tags of h1 to h6: <h1>...</h1>
+     d- <p>...</p>
+     e- <html lang="English"> </html>
+     f- 10 to 20 (so that screen reader can voice it)
+     g- <div role="button" tabindex="0">...</div>
+     h- Accessible rich internet application / means that the website is accessible to people with disabilites.
+
  ## Week2
  ### 19 => 23
    1. Elements that are in the language: Header, Nav, Main, Aside, Figure, Footer, FigCaption, Section, Article. 
