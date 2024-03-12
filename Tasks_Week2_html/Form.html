@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Form </title>
+        <style>
+        .aligned_form 
+        {
+            display: left;
+            align-items: left; /* Equal height columns */
+            margin-bottom: 10px; /* Add spacing between form fields */
+        }
+        </style>
+    </head>
+
+    <body>
+        <fieldset style="border: 1px black solid; width: 400px;">
+            <legend style="margin-left: 1em; padding: 0.2em 0.8em ">Registriation Form</legend>
+            <form id="Registriation Form" method="post">
+                <div class="aligned_form">
+                    <label for="UserName"> UserName </label>
+                    <input name="UserName" type="text">
+                </div>
+
+                <div class="aligned_form">
+                    <label for="Password">Password</label>
+                    <input name="Password" type="password">
+                </div>
+
+                <label>Gender</label>
+                <div>
+                    <input type="radio" name="Gender" value="Male">
+                    <label>Male</label>
+                    <br>
+                    <input type="radio" name="Gender" value="Female">
+                    <label>Female</label>
+                </div>
+                <br>
+
+                <div class="checkbox">
+                    <label> Choose your courses</label>
+                    <br>
+                    <input type="checkbox" name="courses">
+                    <label> DB</label>
+
+                    <input type="checkbox" name="courses">
+                    <label>Maths 1</label>
+                    <br>
+                    
+                    <input type="checkbox" name="courses">
+                    <label> OS</label>
+
+
+                    <input type="checkbox" name="courses">
+                    <label> Discrete</label>
+                </div>
+
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>
