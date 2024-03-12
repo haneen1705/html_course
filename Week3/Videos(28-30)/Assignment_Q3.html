@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Weeeee3 </title>
+    </head>
+
+    <body>
+        <form method="get">
+            <div>
+                <label> Username </label>
+                <br>
+                 <input 
+                 name="Username" 
+                 autofocus 
+                 required
+                 minlength="5"
+                 maxlength="20"
+                 >
+            </div>
+            <hr>
+
+            <div>
+                <label> E-mail </label>
+                <br>
+                <input 
+                name="E-mail"
+                value="o@o.com"
+                readonly
+                >
+            </div>
+            <hr>
+
+            <div>
+                <label> Token </label>
+                <br> 
+                <input 
+                name="Token" 
+                hidden
+                value="b92f1fc2fce391ad7af633723afd3055"
+                >
+            </div>
+            <hr>
+
+            <h1> Your Skills</h1>
+            <br>
+            <div>
+                <input name="skills" type="checkbox" value="Problem Solving" checked>
+                <label> Problem Solving </label>
+            </div>
+
+            <div>
+                <input name="skills" type="checkbox" value="Analysis">
+                <label> Analysis </label>
+            </div>
+
+            <div>
+                <input name="skills" type="checkbox" value="Advanced Search">
+                <label> Advanced Search </label>
+            </div>
+
+            <div>
+                <input name="skills" type="checkbox" value="Logical Thinking">
+                <label> Logical Thinking </label>
+            </div>
+
+            <div>
+                <input name="skills" type="checkbox" value="Planning">
+                <label> Planning </label>
+            </div>
+            <hr>
+
+            <h1> Your Job-title </h1>
+            <div>
+                <input name="jobs" type="radio" value="Front-End Developer" checked>
+                <label>Front-End Developer</label>
+            </div>
+            
+            <div>
+                <input name="jobs" type="radio" value="Back-End Developer">
+                <label> Back-End Developer</label>
+            </div>
+
+            <div>
+                <input name="jobs" type="radio" value="Business Analyst">
+                <label>Business Analyst</label>
+            </div>
+
+            <div>
+                <input name="jobs" type="radio" value="Project Manager">
+                <label>Project Manager</label>
+            </div>
+
+            <div>
+                <input name="jobs" type="radio" value="Scrum Master">
+                <label>Scrum Master</label>
+            </div>
+            <hr>
+
+            <label for="languages"> Programming languages you know </label>
+            <select name="languages" id="lang">
+
+                <optgroup label="PHP">
+                    <option value="1">v5.0</option>
+                    <option value="2">v7.0</option>
+                    <option value="3">v8.0</option>
+                </optgroup>
+
+                <optgroup lable="Python">
+                    <option value="4">v2.0</option>
+                    <option value="5">v3.0</option>
+                    <option value="6">v3.9</option>
+                </optgroup>
+            </select>
+            <br>
+            <hr>
+
+            <textarea name="brief" cols="60" row="60" placeholder="Write Here Why You Want To Learn Programming">
+            </textarea>
+            <br>
+
+            <div>
+                <input type="reset" value="Empty">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </body>
+</html>
